@@ -1,0 +1,89 @@
+/* --------- header ---------- */
+header {
+  text-align: center;
+  padding-top: 20px;
+  background-color: #589bd6;
+  color: white;
+  width: 100%;
+}
+
+header ul li {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  background: black;
+  padding: 15px;
+}
+
+header ul li a {
+  color: white;
+  padding: 0px 10px;
+}
+
+.li-enlace {
+  right: 0px;
+  position: absolute;
+  padding-right: 20px;
+}
+/* --------- /header ---------- */
+
+/* -------- Aside ------------- */
+aside {
+  background: #e4e4e4;
+  height: 262%;
+  width: 27%;
+  position: absolute;
+  top: 191px;
+  padding: 0px 2%;
+}
+
+aside .imagen1 {
+  width: 100%;
+  border-style: solid;
+  margin: 10px 0px;
+  border-width: thin;
+}
+
+aside .imagenes {
+  height: 10%;
+  position: relative;
+  left: 0px;
+  width: 100%;
+  margin: 10px 0px;
+  border-style: solid;
+  border-width: thin;
+}
+/* -------- /Aside ------------- */
+
+/* -------- section ----------- */
+section {
+  position: absolute;
+  width: 66%;
+  height: 80%;
+  background: #ffffff;
+  left: 33%;
+}
+
+section img {
+  width: 100%;
+  height: 70%;
+  margin: 10px 0px;
+}
+/* -------- section ----------- */
+
+/* -------- footer ----------- */
+footer {
+  position: absolute;
+  width: 97%;
+  height: 10%;
+  background: #d2d0d0;
+  bottom: -210%;
+
+  padding: 25px 10px;
+  text-align: center;
+  font-size: larger;
+}
+
+/* -------- /footer ----------- */
